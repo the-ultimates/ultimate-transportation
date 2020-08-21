@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -6,13 +7,14 @@
 }
 #title {
 	text-align:center;
+	font-family: 'Bangers'
 }
 
 .footer {
 	width: 100vw;
 	display: block;
 	overflow: hidden;
-	padding: 70px 0;
+	padding: 3px 0;
 	box-sizing: border-box;
 	background-color: #18181a ;
 }
@@ -88,3 +90,46 @@
 		margin-bottom: 30px;
 	}
 }
+
+body {
+
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+#title {
+	 font-family: 'Bangers';
+	color: #4caf50;
+	text-align:center;
+	font-size: -webkit-xxx-large;
+    font-weight: 100;
+    text-shadow: 6px 2px 5px green;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
