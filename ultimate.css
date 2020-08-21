@@ -102,6 +102,7 @@ body {
   background-repeat: no-repeat; 
   background-size: cover; 
 }
+
 #title {
 	 font-family: 'Bangers';
 	color: #4caf50;
@@ -110,6 +111,7 @@ body {
     font-weight: 100;
     text-shadow: 6px 2px 5px green;
 }
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -138,4 +140,8 @@ body {
   background-color: #4CAF50;
   color: white;
 }
-
+span{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}

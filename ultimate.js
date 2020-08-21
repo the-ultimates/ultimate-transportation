@@ -15,5 +15,10 @@ index = Math.floor(Math.random()*backgrounds.length)
       console.log(index)
      setTimeout(randomize, 2000); 
 }
-  setTimeout(randomize, 2000);
+ setTimeout(randomize, 2000)
+
+  
 })
+
+
+
