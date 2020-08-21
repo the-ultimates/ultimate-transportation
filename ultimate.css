@@ -16,11 +16,7 @@
 	width: 100vw;
 	display: block;
 	overflow: hidden;
-
-	padding: 3px 0;
-
 	padding: 70px 0;
-
 	box-sizing: border-box;
 	background-color: #18181a ;
 }
@@ -32,19 +28,19 @@
 
 }
 .inner_footer .logo_container{
-	width: 35%;
+	width: 30%;
 	float: left;
 	height: 100%;
 	display: block;
 }
 .inner_footer .logo_container img{
-	width: 260px ;
+	width: 240px ;
 	height: auto;
 
 }
 .inner_footer .footer_third{
 	width: calc(21.6666666667% - 20px);
-	margin-right: 10px;
+	margin-right: 50px;
 	float: left;
 	height: 100%;
 
@@ -138,4 +134,5 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+
 
