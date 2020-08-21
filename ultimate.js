@@ -1,5 +1,6 @@
+
 $(document).ready(function(){
-  var body = $('body');
+  var body = $('#body');
  var backgrounds = [ 
       'url(https://s29755.pcdn.co/wp-content/uploads/2019/08/2019_Top_Five_Class_5-Mack.jpg)',
       'url(https://static.bangkokpost.com/media/content/20200307/3555039.jpg)',
@@ -17,3 +18,4 @@ index = Math.floor(Math.random()*backgrounds.length)
 }
   setTimeout(randomize, 2000);
 })
+ 
