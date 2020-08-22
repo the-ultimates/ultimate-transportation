@@ -4,16 +4,27 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="../js/ultimate3.js"></script>
-	<link rel="stylesheet" href="ultimate.css">
+	<link rel="stylesheet" href="../css/ultimate3.css">
   <link rel="stylesheet" href="../style.css">
+
+	<!-- <script type="text/javascript" src="../ultimate.js"></script>
+	<link rel="stylesheet" href="../ultimate.css"> -->
+
 	
 </head>
 <body>
+	<div class="topnav">
+  <a  href="../ultimate.html">home</a>
+  <a  href="../html/ultimate1.html">Pickup</a>
+  <a href="../html/ultimate2.html">Heavy</a>
+  <a class="active" href="../html/ultimate3.html">Semi trailer</a>
+  <a href="../html/ultimate4.html">Construction machineries</a>
+</div><br>
 	<img src="https://www.renderhub.com/arqart/iveco-stralis-with-refrigerated-semitrailer/iveco-stralis-with-refrigerated-semitrailer-01.jpg" width="700" height="600">
 	<h1>price : 1000 DT per day</h1>
 
 <form id="myForm" action ="payment.html" method="post" >
-        1000 DT
+        Num days
 <input type="number" id="b" required value="1" min="1" >
 Total
 <span id="output">1000 DT</span>
@@ -21,7 +32,7 @@ Total
 
     	
   </datalist>
-  <input type="submit" value ="Rent it now"></form>
+  <input id ="d" type="submit" value ="Rent it now"></form>
 </form>
 </body>
 </html>
